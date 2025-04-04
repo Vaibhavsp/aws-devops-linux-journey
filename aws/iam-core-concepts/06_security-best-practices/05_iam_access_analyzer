@@ -1,0 +1,74 @@
+# 🔍 IAM Access Analyzer
+
+IAM Access Analyzer helps you identify the **resources in your account that are shared with an external entity** (like another AWS account, AWS service, or public access).
+
+---
+
+## ✅ What is IAM Access Analyzer?
+
+It continuously monitors resource policies (S3 buckets, IAM roles, KMS keys, etc.) and flags:
+- Publicly accessible resources
+- Cross-account access
+- Third-party services accessing your resources
+
+---
+
+## 🎯 Why Use It?
+
+| Reason | Benefit |
+|--------|---------|
+| Security visibility | Know which resources are accessible externally |
+| Prevent misconfigurations | Detect and fix risky permissions |
+| Audit readiness | Great for compliance & access reviews |
+
+---
+
+## 🧪 How to Use It
+
+### 📌 GUI (AWS Console):
+
+1. Go to **IAM Console → Access Analyzer**
+2. Click **"Create Analyzer"**
+3. Give it a name, select your **Region and account type**
+4. After it's created, it will scan and show findings.
+
+### 📌 CLI:
+
+```bash
+# Create Analyzer
+aws accessanalyzer create-analyzer --analyzer-name my-analyzer --type ACCOUNT
+
+# List Findings
+aws accessanalyzer list-findings
+
+# Show finding details
+aws accessanalyzer get-finding --id <finding-id>
+```
+
+---
+
+## 📁 What Access Analyzer Detects
+
+- IAM roles with trust policies allowing external principals
+- S3 buckets with public or cross-account access
+- KMS keys shared with another AWS account
+- Secrets shared externally
+
+---
+
+## 🔒 Best Practices
+
+- Create analyzer per region
+- Review findings regularly
+- Automate actions on risky findings using Lambda or SNS
+- Integrate with AWS Config for compliance
+
+---
+
+## 📌 Real-time Project Use
+
+In your **Disaster Management project**, you can:
+- Ensure S3 buckets (citizen data) aren't public
+- Audit IAM roles for unintended third-party access
+- Automatically notify your team via SNS if a risky role is created
+---
