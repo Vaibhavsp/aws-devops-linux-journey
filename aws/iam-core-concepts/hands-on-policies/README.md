@@ -19,6 +19,8 @@ This hands-on demonstrates how to create and apply both **Managed** and **Inline
 3. Name: `S3ReadOnlyCustomPolicy`
 4. Click **Create Policy**
 
+![9](https://github.com/user-attachments/assets/535c37aa-aa3c-4361-8ab0-a3fc74fd1619)
+
 ![8](https://github.com/user-attachments/assets/b69b5f04-6b20-44ad-9e10-d0167b28a097)
 
 
