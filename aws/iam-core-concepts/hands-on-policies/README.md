@@ -2,12 +2,14 @@
 
 This hands-on demonstrates how to create and apply both **Managed** and **Inline** IAM policies, attach them to EC2 roles, and validate permissions using the AWS CLI.
 
+---
 
 ## 📌 Use Case
 
 ✅ Give EC2 instance **read-only access to all S3 buckets** using a **Managed Policy**  
 ✅ Then, restrict access to **only one S3 bucket** using an **Inline Policy**
 
+---
 
 ## 🧱 1. Create Managed IAM Policy
 
@@ -21,8 +23,11 @@ This hands-on demonstrates how to create and apply both **Managed** and **Inline
 
 ![9](https://github.com/user-attachments/assets/535c37aa-aa3c-4361-8ab0-a3fc74fd1619)
 
+---
+
 ![8](https://github.com/user-attachments/assets/b69b5f04-6b20-44ad-9e10-d0167b28a097)
 
+---
 
 ## 🔧 2. Attach Policy to Role
 
@@ -34,8 +39,6 @@ This hands-on demonstrates how to create and apply both **Managed** and **Inline
 
 ![16](https://github.com/user-attachments/assets/5cbdb04a-af0b-4d43-9124-ca9e26b186d8)
 
-📸 `screenshots/role-attachment.png`
-
 ---
 
 ## 💻 3. Attach Role to EC2 Instance
@@ -44,6 +47,7 @@ This hands-on demonstrates how to create and apply both **Managed** and **Inline
 2. Actions → Security → Modify IAM Role  
 3. Attach the role used above
 
+---
 
 ## 🧪 4. Validate Access from EC2 (via CLI)
 
@@ -51,10 +55,13 @@ This hands-on demonstrates how to create and apply both **Managed** and **Inline
 aws s3 ls
 ```
 
+---
+
 ✅ Lists buckets if policy is correct.
 
 ![17](https://github.com/user-attachments/assets/dbf93bc9-c207-411c-8a39-11b6652dc3fe)
 
+---
 
 ## ✳️ 5. Add Inline Policy to Restrict Access
 
@@ -69,6 +76,7 @@ aws s3 ls
 
 ![5](https://github.com/user-attachments/assets/f9d00618-1158-4198-8901-756d61fbd97f)
 
+---
 
 ## 🚀 6. Re-Test from EC2 (Bucket-Specific)
 
