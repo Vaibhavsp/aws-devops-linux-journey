@@ -51,17 +51,21 @@ echo "<h1>Hello from Ubuntu EC2!</h1>" > /var/www/html/index.html
 ### ✅ Step 2: Launch EC2 Instance with User Data
 
 1. Go to **EC2 > Launch Instance**
+
 ![1](https://github.com/user-attachments/assets/f4e2b6cb-4849-443f-b1f6-b396a164ea75)
 
 ![2](https://github.com/user-attachments/assets/d3daa5ef-0ea3-448e-89ab-dd455f689d55)
 
 2. Choose **Amazon Linux 2 AMI**
+   
 ![3 1](https://github.com/user-attachments/assets/ee2523be-9be8-4016-bf95-9deddfe0ebb2)
 
-3. Choose instance type: `t2.micro` (free tier)
+4. Choose instance type: `t2.micro` (free tier)
+   
 ![3 2](https://github.com/user-attachments/assets/1c7d6872-5816-4177-839c-e15cc86a6160)
 
-4. Under **Advanced Details**, paste your **User Data** script
+6. Under **Advanced Details**, paste your **User Data** script
+   
 ![3 6](https://github.com/user-attachments/assets/f4a27111-cf77-40ec-8148-2fbaf76ca3ab)
 
 ![3 7](https://github.com/user-attachments/assets/777f79ca-b4ff-41df-bd41-445f59d0f61b)
@@ -70,9 +74,11 @@ echo "<h1>Hello from Ubuntu EC2!</h1>" > /var/www/html/index.html
 5. Configure Security Group:
    - Allow **HTTP (port 80)**
    - Optional: allow SSH (port 22)
+
 ![3 4](https://github.com/user-attachments/assets/30ca8473-64aa-4f87-918c-ba60964ecb6c)
 
 6. Launch with your existing or new key pair
+
 ![4](https://github.com/user-attachments/assets/f7483e42-f2c7-49ab-b188-0a60ccc4217b)
 
 ![6](https://github.com/user-attachments/assets/ddd16a14-2bc5-46fd-8862-0669abd9aa65)
@@ -87,6 +93,7 @@ After the instance is running:
 - Copy **Public IPv4 address**
 - Open browser and visit:  
   `http://<your-public-ip>`
+
 ![8](https://github.com/user-attachments/assets/39e60154-e0a0-4067-a8a5-17479dfddbba)
 
 You should see the **HTML page from your script!**
