@@ -118,7 +118,8 @@ ssh -i your-key.pem ec2-user@<your-elastic-ip>
 
 Now you're ready to build on top of static public access with confidence using Elastic IPs! 💪
 
-*Happy building in the cloud!* ☁️
+**Happy building in the cloud!** ☁️
 
-📚 ## Medium Blog: [medium.com/@vaibhavparekh097](https://medium.com/@vaibhavparekh097)
-🪪 ## LinkedIn: [linkedin.com/in/vaibhav-parekh08/](https://www.linkedin.com/in/vaibhav-parekh08/)
+📚 **Medium Blog**: [medium.com/@vaibhavparekh097](https://medium.com/@vaibhavparekh097)
+
+🪪 **LinkedIn**: [linkedin.com/in/vaibhav-parekh08/](https://www.linkedin.com/in/vaibhav-parekh08/)
