@@ -29,7 +29,7 @@ This repository is a structured portfolio that includes:
 
 | Module | Description |
 |--------|-------------|
-| [aws-iam-core-concepts]([https://github.com/Vaibhavsp/aws-iam-core-concepts](https://github.com/Vaibhavsp/aws-devops-linux-journey/tree/main/aws/iam-core-concepts)) | Deep dive into IAM: Users, Roles, Policies, Security |
+| [aws-iam-core-concepts](https://github.com/Vaibhavsp/aws-devops-linux-journey/tree/main/aws/iam-core-concepts) | Deep dive into IAM: Users, Roles, Policies, Security |
 | (Coming Soon) | EC2, S3, VPC hands-on with CLI + GUI |
 | (Coming Soon) | Docker containers with real apps |
 | (Coming Soon) | RedHat Linux setup, permissions, services |
