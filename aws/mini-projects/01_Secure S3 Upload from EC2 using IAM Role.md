@@ -124,3 +124,10 @@ This will install the AWS CLI on your EC2 instance.
 - IAM Role creation and attachment to EC2
 - Using **AWS CLI** to manage files between EC2 and S3
 - Best practices for securely interacting with AWS resources (no access keys)
+
+---
+
+## Follow me on:
+### ✍️ Medium: [medium.com/@vaibhavparekh097](https://medium.com/@vaibhavparekh097)
+### 🪪 LinkedIn: [linkedin.com/in/vaibhav-parekh08/](https://www.linkedin.com/in/vaibhav-parekh08/)
+### 🔗 X: https: [x.com/awswithvibes](https://x.com/awswithvibes)
