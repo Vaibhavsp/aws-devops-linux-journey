@@ -128,6 +128,6 @@ This will install the AWS CLI on your EC2 instance.
 ---
 
 ## Follow me on:
-### ✍️ Medium: [medium.com/@vaibhavparekh097](https://medium.com/@vaibhavparekh097)
-### 🪪 LinkedIn: [linkedin.com/in/vaibhav-parekh08/](https://www.linkedin.com/in/vaibhav-parekh08/)
-### 🔗 X: https: [x.com/awswithvibes](https://x.com/awswithvibes)
+**✍️ Medium:** [medium.com/@vaibhavparekh097](https://medium.com/@vaibhavparekh097)
+**🪪 LinkedIn:** [linkedin.com/in/vaibhav-parekh08/](https://www.linkedin.com/in/vaibhav-parekh08/)
+**🔗 X:** [x.com/awswithvibes](https://x.com/awswithvibes)
