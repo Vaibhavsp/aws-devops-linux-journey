@@ -14,7 +14,7 @@ A fully practical AWS Networking exercise covering VPC creation, EC2 launch, con
 
 ## 1. Create a Custom VPC
 
-### - Navigate to AWS Console → Search for **VPC** → Open **VPC Dashboard**.
+### • Navigate to AWS Console → Search for **VPC** → Open **VPC Dashboard**.
 
 ![AWS Console](https://github.com/user-attachments/assets/d5831ced-a5dc-47fd-b263-34e11daabadb)
   
