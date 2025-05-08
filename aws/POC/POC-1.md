@@ -84,19 +84,19 @@ We hosted a basic website by launching an EC2 instance in AWS inside a default V
 
 ---
 
-### - Website Script
+- ### Website Script
 
 ![8](https://github.com/user-attachments/assets/ad51ec5d-e911-4961-896a-5df4d685cdfa)
 
 ---
 
-### - Custom website page live
+- ### Custom website page live
 
 ![9](https://github.com/user-attachments/assets/84e7c683-d39a-4ac5-8d26-2a721f2554c0)
 
 ---
 
-### - Secure EC2 & Apply Best Practices
+- ### Secure EC2 & Apply Best Practices
 
 ![13](https://github.com/user-attachments/assets/532295d2-3d89-48de-a371-fa80739c4a65)
 
