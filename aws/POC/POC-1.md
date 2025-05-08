@@ -70,30 +70,41 @@ We hosted a basic website by launching an EC2 instance in AWS inside a default V
 ---
 
 ## 9. Screenshots:
-### - EC2 launch success
+- ### EC2 launch success
 
 ![5](https://github.com/user-attachments/assets/690a294f-a53c-4256-af90-f1dab5f11797)
 
-### - Connect to Server & Install Apache Web Server
+---
+
+- ### - Connect to Server & Install Apache Web Server
 
 ![6](https://github.com/user-attachments/assets/15cfa5d5-cb3e-44ef-bf26-556f97ce39f4)
 
 ![7](https://github.com/user-attachments/assets/b53afd42-5747-422a-8331-9921148baa59)
 
+---
+
 ### - Website Script
 
 ![8](https://github.com/user-attachments/assets/ad51ec5d-e911-4961-896a-5df4d685cdfa)
 
+---
 
 ### - Custom website page live
 
 ![9](https://github.com/user-attachments/assets/84e7c683-d39a-4ac5-8d26-2a721f2554c0)
 
+---
+
 ### - Secure EC2 & Apply Best Practices
 
 ![13](https://github.com/user-attachments/assets/532295d2-3d89-48de-a371-fa80739c4a65)
 
+---
+
 ![14](https://github.com/user-attachments/assets/0c2729fc-89b5-42b6-898c-81a793ddf5b4)
+
+---
 
 ![15](https://github.com/user-attachments/assets/c5dc2293-e7a6-49ae-ae86-278316099306)
 
