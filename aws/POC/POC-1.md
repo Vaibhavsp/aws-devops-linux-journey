@@ -64,7 +64,8 @@ We hosted a basic website by launching an EC2 instance in AWS inside a default V
 ---
 
 ## 8. Architecture Diagram:
-*(Optional - Can be added later)*
+
+![Thumbnail](https://github.com/user-attachments/assets/f87c4351-cd9a-45c6-b801-e60fd5ea1042)
 
 ---
 
