@@ -218,7 +218,7 @@ Job for jenkins.service failed because the control process exited with error cod
 
 ---
 
-## Medium : [medium.com/@vaibhavparekh097](https://medium.com/@vaibhavparekh097)
+### Medium : [medium.com/@vaibhavparekh097](https://medium.com/@vaibhavparekh097)
 ### X : [x.com/awswithvibes](https://x.com/awswithvibes)
 ### LinkedIn : [linkedin.com/in/vaibhav-parekh08](https://www.linkedin.com/in/vaibhav-parekh08/)
 
